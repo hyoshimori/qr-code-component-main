@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(212, 225, 239);
+  padding-top: 100px;
+  font-family: sans-serif;
+}
+.card-container{
+  background-color: white;
+  max-width: 70vw;
+  margin: 0 auto;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color: #B3B8CD;
+  padding-top: 13px;
+
+  text-align: center;
+}
+.qr-image{
+  width:auto;
+  height:auto;
+  max-width:90%;
+  max-height:90%;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.message p{
+  color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.message p:first-child{
+  font-weight: 600;
+}
+
+.message p:last-child{
+  padding-bottom: 20px;
+  color: rgb(133, 133, 133);
+}
